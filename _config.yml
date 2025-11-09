@@ -36,7 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-archiv
+  - jekyll-archives
 
 
 # Exclude from processing.
