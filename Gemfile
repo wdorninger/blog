@@ -36,3 +36,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-remote-theme"
 gem "jekyll-archives"
 gem "jekyll-paginate"
+gem "jekyll-include-cache"
