@@ -80,6 +80,9 @@ minimal_mistakes_skin: "default" # or "air", "aqua", "dark", etc.
 markdown: kramdown
 permalink: /:categories/:title/
 
+sass:
+  style: compressed
+
 # Exclude unnecessary files
 exclude:
   - Gemfile
