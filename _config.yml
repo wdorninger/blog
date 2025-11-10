@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Walter's Blog
+email: mailto:{{ {{ 'wdorninger@googlemail.com' }} 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is my personal blog—a curated collection of thoughts, ideas, scripts, and other useful resources.
+  My financial services interests involve reference data, financial instrument modelling, legal entities
+  and market data (level 1 and 2) in general. My IT interests primarily are focused on databases (of all kinds)
+  Java and frameworks (Spring, Hibernate, Spark, Apache Airflow,...), Kubernetes, Cloud platforms etc. 
 domain: wdorninger.github.io
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://wdorninger.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -89,4 +90,3 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-
