@@ -37,4 +37,4 @@ gem "jekyll-remote-theme"
 gem "jekyll-archives"
 gem "jekyll-paginate"
 gem "jekyll-include-cache"
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
