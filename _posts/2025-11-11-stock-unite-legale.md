@@ -71,15 +71,14 @@ Be aware some identifiers (tax IDs) may have restricted public use.
 Sample records:
 
 {% highlight csv %}
+company_id,publication_status,purged_unit,creation_date,acronym,gender,first_name,second_name,third_name,fourth_name,usual_first_name,pseudonym,association_id,employee_range,employee_year,last_processed_date,number_of_periods,company_size_category,company_size_year,period_start_date,administrative_status,last_name,used_last_name,legal_name,common_name_1,common_name_2,common_name_3,legal_category,main_activity_code,activity_classification,head_office_nic,social_economy_indicator,mission_driven_company,employer_status
 000325175,O,,2000-09-26,,M,THIERRY,,,,THIERRY,,,NN,,2024-03-22T14:26:06,6,PME,2023,2018-02-07,A,JANOYER,,,,,,1000,32.12Z,NAFRev2,00065,,,
 001807254,O,,1972-05-01,,M,JACQUES-LUCIEN,,,,JACQUES-LUCIEN,,,NN,,2024-03-22T14:26:06,5,,,2014-12-31,C,BRETON,,,,,,1000,85.59A,NAFRev2,00022,,,
-005410220,O,true,1954-12-25,,M,GEORGES,,,,GEORGES,,,NN,,2024-03-22T14:26:06,1,,,1988-03-31,C,WATTEBLED,,,,,,1000,22.02,NAP,00015,,,
-005410345,O,true,,,M,MICHEL,,,,MICHEL,,,NN,,2024-03-22T14:26:06,1,,,1984-12-25,C,DEBRAY,,,,,,1000,79.06,NAP,00010,,,
-005410394,O,true,1954-12-25,,M,ROBERT,ALFRED,,,ROBERT,,,NN,,2024-03-22T14:26:06,1,,,1987-12-01,C,DAULT,,,,,,1000,64.42,NAP,00018,,,
-005410428,O,true,1954-01-01,,M,RENE,PIERRE,,,RENE,,,NN,,2024-03-22T14:26:06,1,,,1989-06-11,C,DINGEON,,,,,,1000,70.2C,NAF1993,00014,,,
-005410436,O,true,,,M,MARCEL,,,,MARCEL,,,NN,,2024-03-22T14:26:06,1,,,1984-12-25,C,CARBONNET,,,,,,1000,57.11,NAP,00017,,,
-005410485,O,true,,,M,RENE,ALFRED,,,RENE,,,NN,,2024-03-22T14:26:06,1,,,1985-12-25,C,LECRIVAIN,,,,,,1000,64.42,NAP,00014,,,
-005410493,O,true,1954-12-25,,M,PIERRE,,,,PIERRE,,,NN,,2024-03-22T14:26:06,1,,,1985-12-01,C,GODIN,,,,,,1000,86.06,NAP,00018,,,
+005411582,O,,1954-01-01,,M,RENE,PIERRE,ANDRE,,RENE,,,NN,,2024-03-22T14:26:06,4,,,2008-01-01,A,GERVOISE,,,,,,1000,68.20B,NAFRev2,00017,,,
+005420021,O,,1954-01-01,,,,,,,,,,NN,,2024-03-22T14:26:06,7,PME,2023,2011-06-10,A,,,ETABLISSEMENTS LUCIEN BIQUEZ,,,,5710,46.69B,NAFRev2,00056,,,
+005420047,O,,1954-01-01,,,,,,,,,,NN,,2024-03-22T14:26:06,4,,,2008-09-26,C,,,SOCIETE ANONYME MARCEL CARON ET FILS,,,,5599,45.3F,NAFRev1,00010,,,
+005420104,O,,1954-01-01,,,,,,,,,,NN,,2024-03-22T14:26:06,4,,,2013-12-16,C,,,VETEMENTS JARDI,,,,5499,47.71Z,NAFRev2,00019,,,
+005420120,O,,1954-01-01,,,,,,,,,,03,2023,2025-10-09T12:01:24,5,PME,2023,2020-10-23,A,,,SOCIETE DES SUCRERIES DU MARQUENTERRE,,,,5599,70.10Z,NAFRev2,00031,N,,
 {% endhighlight %}
 
 
