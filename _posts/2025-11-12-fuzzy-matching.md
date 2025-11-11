@@ -17,7 +17,7 @@ SELECT *
  WHERE e_legalname <% 'GOLDEN';
 {% endhighlight %}
 
-![2025-11-12-fuzzy-matching-query1.png](images/2025-11-12-fuzzy-matching-query1.png)
+![2025-11-12-fuzzy-matching-query1.png](../assets/images/2025-11-12-fuzzy-matching-query1.png)
 
 The above is good however if one looks at the explain plan one sees that it performs a full table scan. To improve performance one can create a trigram 
 index on the column being searched. The index will speed up similarity operations like <% and functions like similarity()
@@ -36,6 +36,6 @@ SELECT similarity(e_legalname, 'GOLDENSOURCE'), *
  ORDER BY similarity(e_legalname, 'GOLDENSOURCE') desc
 {% endhighlight %}
 
-![2025-11-12-fuzzy-matching-query2.png](images/2025-11-12-fuzzy-matching-query2.png)
+![2025-11-12-fuzzy-matching-query2.png](../assets/images/2025-11-12-fuzzy-matching-query2.png)
 
 
