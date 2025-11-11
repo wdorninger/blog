@@ -6,16 +6,16 @@ categories: [blog]
 author_profile: true
 ---
 
-Global open data sources:
-1. GLEIF — [GLEIF] — Legal Entity Identifier (LEI)
-2. OpenCorporates — https://opencorporates.com — OpenCorporates company records (jurisdictional company number + OC ID)
+**Global open data sources:**
+1. [GLEIF] — Legal Entity Identifier (LEI)
+2. [OpenCorporates] — OpenCorporates company records (jurisdictional company number + OC ID)
 
-Global commercial providers:
-3. Dun & Bradstreet — https://www.dnb.com — DUNS / D‑U‑N‑S Number (commercial)
-4. Orbis / Bureau van Dijk (commercial) — https://www.bvdinfo.com — proprietary company IDs
+**Global commercial providers:**
+1. Dun & Bradstreet — https://www.dnb.com — DUNS / D‑U‑N‑S Number (commercial)
+2. Orbis / Bureau van Dijk (commercial) — https://www.bvdinfo.com — proprietary company IDs
 
 
-Local data sources (to be verified)
+**Local data sources (to be verified)**
 Selected national/local registries (authority — website — identifier)
 1. United States — Secretary of State registries (varies by state) — state company number; IRS — https://www.irs.gov — EIN (Employer Identification Number, not always public)
 Corporations
@@ -89,7 +89,9 @@ Corporations
 40. Chile — Servicio de Impuestos Internos (SII) / Registro de Empresas — https://www.sii.cl — RUT
 41. Colombia — Cámara de Comercio / DIAN — https://www.rues.org.co / https://www.dian.gov.co — NIT; Cámara registration
     number
+
 [GLEIF]: https://www.gleif.org
+[OpenCorporates]: https://opencorporates.com
 
 Notes
 Identifier availability and public access vary by jurisdiction (some tax IDs are non‑public or restricted).
