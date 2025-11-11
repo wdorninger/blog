@@ -2,7 +2,7 @@
 title: "Fuzzy Matching"
 layout: single
 tags: [tech, fuzzy]
-categories: [finance]
+categories:
 author_profile: true
 ---
 
