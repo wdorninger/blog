@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "Entity Identifiers: Global and Local Data Sources"
 layout: single
 tags: [finance, lei, legal entity]
 categories: [blog]
